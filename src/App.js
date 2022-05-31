@@ -4,7 +4,11 @@ import { Route, Routes } from "react-router-dom";
 import Navigation from "./routes/navigation/navigation.component";
 
 const Shop = () => {
-  return <h1>Shop Component</h1>;
+  return (
+    <div>
+      <h1>Shop Component</h1>
+    </div>
+  );
 };
 
 const App = () => {
